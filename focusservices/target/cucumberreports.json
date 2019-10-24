@@ -1,0 +1,137 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-10-24T06:14:17.231Z",
+        "line": 4,
+        "name": "Check the carrers in Focus Services Website",
+        "description": "",
+        "id": "focus-services-test;check-the-carrers-in-focus-services-website",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6216459200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I open chrome browser",
+            "match": {
+              "location": "StepDefinitionsFservices.iOpenChromeBrowser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 12377313900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I open Google.com to search Focus Services",
+            "match": {
+              "location": "StepDefinitionsFservices.iOpenGoogle()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5056850400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I validate if the url https://www.focusservices.com exist",
+            "match": {
+              "location": "StepDefinitionsFservices.iValidateFservicesLink()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2380641500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I click Focus Services – Beyond Expectations",
+            "match": {
+              "location": "StepDefinitionsFservices.iClickOnBeyond()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5121796500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I validate if the botton Now Hiring exist",
+            "match": {
+              "location": "StepDefinitionsFservices.iValidateNowHiring()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3541619500,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on Carrers",
+            "match": {
+              "location": "StepDefinitionsFservices.iClickOnCarrers()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 157503000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I look for the inbound word",
+            "match": {
+              "location": "StepDefinitionsFservices.iLookInbound()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 127807700,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I check the Job Description",
+            "match": {
+              "location": "StepDefinitionsFservices.iCheckJobDescription()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 720196400,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I close the browser",
+            "match": {
+              "location": "StepDefinitionsFservices.iCloseBrowser()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@single"
+          }
+        ]
+      }
+    ],
+    "name": "Focus Services Test",
+    "description": "",
+    "id": "focus-services-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/features/FocusServicesFeatures.feature",
+    "tags": []
+  }
+]
