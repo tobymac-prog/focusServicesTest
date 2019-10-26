@@ -1,5 +1,6 @@
 package fuenteJava;
 
+import java.io.File;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -7,7 +8,6 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import java.util.Properties;
 
 public class DriverInitializer {
-
     private static Properties properties = null;
     public static WebDriver driver;
     static {
@@ -15,13 +15,16 @@ public class DriverInitializer {
             properties = new Properties();
             properties.load(DriverInitializer.class.getClassLoader()
                     .getResourceAsStream("application.properties"));
-            System.setProperty("webdriver.chrome.driver", properties.getProperty("path"));
+            File resourceFile = new File(properties.getProperty("chrome.path"));
+            String chrome=resourceFile.getAbsolutePath(); 
+System.setProperty("webdriver.chrome.driver", chrome);            
+//System.setProperty("webdriver.chrome.driver", properties.getProperty("chrome.path"));
             System.setProperty("webdriver.gecko.driver", properties.getProperty("gecko.path"));
         } catch (Exception e) {
             e.printStackTrace();
         }
-    }
-
+    } 
+    
     public static WebDriver getDriver(String browser) {
         WebDriver driver = null;
         switch (getProperty("browser")) {

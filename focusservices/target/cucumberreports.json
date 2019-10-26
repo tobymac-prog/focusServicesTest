@@ -3,7 +3,7 @@
     "line": 1,
     "elements": [
       {
-        "start_timestamp": "2019-10-24T06:14:17.231Z",
+        "start_timestamp": "2019-10-26T12:42:26.512Z",
         "line": 4,
         "name": "Check the carrers in Focus Services Website",
         "description": "",
@@ -13,7 +13,7 @@
         "steps": [
           {
             "result": {
-              "duration": 6216459200,
+              "duration": 6631544700,
               "status": "passed"
             },
             "line": 5,
@@ -25,7 +25,7 @@
           },
           {
             "result": {
-              "duration": 12377313900,
+              "duration": 13995175300,
               "status": "passed"
             },
             "line": 6,
@@ -37,7 +37,7 @@
           },
           {
             "result": {
-              "duration": 5056850400,
+              "duration": 5127335000,
               "status": "passed"
             },
             "line": 7,
@@ -49,7 +49,7 @@
           },
           {
             "result": {
-              "duration": 2380641500,
+              "duration": 2514116100,
               "status": "passed"
             },
             "line": 8,
@@ -61,7 +61,7 @@
           },
           {
             "result": {
-              "duration": 5121796500,
+              "duration": 5156204800,
               "status": "passed"
             },
             "line": 9,
@@ -73,7 +73,7 @@
           },
           {
             "result": {
-              "duration": 3541619500,
+              "duration": 4343635700,
               "status": "passed"
             },
             "line": 10,
@@ -85,7 +85,7 @@
           },
           {
             "result": {
-              "duration": 157503000,
+              "duration": 332122100,
               "status": "passed"
             },
             "line": 11,
@@ -97,7 +97,7 @@
           },
           {
             "result": {
-              "duration": 127807700,
+              "duration": 221723400,
               "status": "passed"
             },
             "line": 12,
@@ -109,7 +109,7 @@
           },
           {
             "result": {
-              "duration": 720196400,
+              "duration": 942196500,
               "status": "passed"
             },
             "line": 13,

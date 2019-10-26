@@ -12,6 +12,7 @@ import io.cucumber.java.en.Given;
 import io.cucumber.java.en.When;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.And;
+import java.io.File;
 import org.openqa.selenium.WebDriver;
 
 /**
@@ -27,7 +28,7 @@ public class StepDefinitionsFservices extends TestValues {
         
         @And("I open Google.com to search Focus Services")
         public void iOpenGoogle() throws Throwable {
-        //DriverInitializer.getProperty("urlWebSite"); 
+        DriverInitializer.getProperty("urlWebSite"); 
         DriverMethodsTest.getWebSite(urlWebSite);
         DriverMethodsTest.sendKeysMethod(typeName,textBoxGoogle,valueSearch);}
         

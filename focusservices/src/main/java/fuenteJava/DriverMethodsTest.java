@@ -5,6 +5,8 @@
  */
 package fuenteJava;
 
+import java.io.File;
+import java.nio.file.Paths;
 import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -28,10 +30,10 @@ public class DriverMethodsTest {
         driver.get(url);
         driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);}
     
-    public static void setUp(){
+    /*public static void setUp(){
         System.setProperty("webdriver.chrome.driver", "/SeleniumWebdrivers/chromedriver.exe");
         driver = new ChromeDriver();
-        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);}
+        driver.manage().timeouts().implicitlyWait(5, TimeUnit.SECONDS);}*/
         
     public static void cleanUpAndClose(String objectType,String values, String expectedValue){
         switch(objectType) {
